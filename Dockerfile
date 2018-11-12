@@ -19,3 +19,5 @@ RUN conda install --quiet --yes \
 
 # Install Sample Notebook
 COPY sample_notebook/CavityFlow_with_Navier-Stokes.ipynb /home/$NB_USER/
+
+echo "aa"
